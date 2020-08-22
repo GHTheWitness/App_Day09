@@ -8,9 +8,9 @@ class Test_allur01:
         allure.attach("这是一个描述","试一下")
         assert 1
 
-    @allure.issue("http://www.163.com/ll")
     @allure.step(title="第二个测试")
+    @allure.issue("http://www.163.com/ll")
     @allure.severity(allure.severity_level.TRIVIAL)
-    def test_001(self):
+    def test_002(self):
         allure.attach("这是一个描述", "试一下")
         assert 1
